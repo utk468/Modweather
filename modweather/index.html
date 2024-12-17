@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>WeatherApp</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Your Personalized Weather Forecast</h1>
+            <p>Stay ahead of the weather curve with real-time updates.</p>
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="getWeatherBtn">Get Weather</button>
+            <section id="weather" class="weather-container">
+                <h2>Weather Report</h2>
+                <div class="weather-info" id="weatherInfo"></div>
+                <div class="error" id="error"></div>
+            </section>
+        </div>
+    </section>
+    </div>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>Accurate Data</h3>
+                <p>Get the most accurate and up-to-date weather forecasts.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Global Coverage</h3>
+                <p>Find weather updates for any city in the world.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Interactive UI</h3>
+                <p>Beautiful and intuitive interface to enhance your experience.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 WeatherApp. All Rights Reserved.</p>
+        <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
